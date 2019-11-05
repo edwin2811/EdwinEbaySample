@@ -13,6 +13,7 @@ And I Click on the first product from the dropdown
 #And I remove the product from the add to cart page
 #And I validate that the cart is empty
 
+
  
 
    
