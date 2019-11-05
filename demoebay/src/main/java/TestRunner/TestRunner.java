@@ -25,8 +25,6 @@ public class TestRunner {
     
     
     
-   // C:\\Users\\Wilfred\\git\\EbaySample\\demoebay\\src\\test\\resources\\Homepage.feature
-//C:\Users\Wilfred\git\EbaySample\demoebay\src\main\java\Homepage.feature
 
 //@RunWith(Cucumber.class)
 //@Cucumber.Options(format = {"pretty", "html:target/cucumber-htmlreport","json-pretty:target/cucumber-report.json"})

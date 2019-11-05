@@ -22,73 +22,98 @@ formatter.scenario({
 });
 formatter.step({
   "line": 9,
-  "name": "I am in the Ebay Homepage",
+  "name": "User is in the Ebay Homepage",
   "keyword": "Given "
 });
 formatter.step({
   "line": 10,
-  "name": "I view the Homepage",
-  "keyword": "And "
+  "name": "User views the Homepage",
+  "keyword": "When "
 });
 formatter.step({
   "line": 11,
-  "name": "I enter \u0027Books\u0027 in search options",
-  "keyword": "And "
+  "name": "User enters \u0027Books\u0027 in search options",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 12,
-  "name": "I Click on the first product from the dropdown",
-  "keyword": "And "
+  "name": "Click on the first product from the dropdown",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 13,
   "name": "user adds item to the cart",
-  "keyword": "And "
+  "keyword": "Then "
 });
 formatter.step({
   "line": 14,
   "name": "Validate that the book is in the cart",
   "keyword": "And "
 });
+formatter.step({
+  "line": 15,
+  "name": "User will remove the product from the cart page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 16,
+  "name": "validate that the cart is empty",
+  "keyword": "And "
+});
 formatter.match({
   "location": "EbayHomepageSteps.user_is_already_in_homepage()"
 });
 formatter.result({
-  "duration": 15725697000,
+  "duration": 9244501900,
   "status": "passed"
 });
 formatter.match({
   "location": "EbayHomepageSteps.user_is_viewing_the_page()"
 });
 formatter.result({
-  "duration": 98328400,
+  "duration": 24463000,
   "status": "passed"
 });
 formatter.match({
   "location": "EbayHomepageSteps.i_click_on_the_search_option()"
 });
 formatter.result({
-  "duration": 9819222200,
+  "duration": 4303799200,
   "status": "passed"
 });
 formatter.match({
   "location": "EbayHomepageSteps.i_Click_on_the_first_product_from_the_dropdown()"
 });
 formatter.result({
-  "duration": 1033978700,
-  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: The Complete Keto Diet Plan for Beginners – 4 Book Set – EB00k Fast Delivery\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.7.0\u0027, revision: \u00272321c73\u0027, time: \u00272017-11-02T22:22:35.584Z\u0027\nSystem info: host: \u0027DESKTOP-25NP8CS\u0027, ip: \u0027192.168.1.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 24376, moz:profile: C:\\Users\\Wilfred\\AppData\\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: b1feeb9f-3c8a-462d-b0d3-e092686cc277\n*** Element info: {Using\u003dlink text, value\u003dThe Complete Keto Diet Plan for Beginners – 4 Book Set – EB00k Fast Delivery}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:424)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:246)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)\r\n\tat Stepdefinitions.EbayHomepageSteps.i_Click_on_the_first_product_from_the_dropdown(EbayHomepageSteps.java:44)\r\n\tat ✽.And I Click on the first product from the dropdown(C:/Users/Wilfred/git/EbaySample/demoebay/src/main/java/Homepage.feature:12)\r\n",
-  "status": "failed"
+  "duration": 6456108100,
+  "status": "passed"
 });
 formatter.match({
   "location": "EbayHomepageSteps.user_adds_items_to_the_cart()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4052277100,
+  "status": "passed"
 });
 formatter.match({
   "location": "EbayHomepageSteps.validate_that_the_book_is_in_the_cart()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2193384800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "EbayHomepageSteps.User_will_remove_the_product_from_the_cart_page()"
+});
+formatter.result({
+  "duration": 2244036800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "EbayHomepageSteps.validate_that_the_cart_is_empty()"
+});
+formatter.result({
+  "duration": 4394742900,
+  "status": "passed"
 });
 });
